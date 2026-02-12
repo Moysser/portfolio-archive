@@ -32,7 +32,9 @@ const Work = () => {
           <Timeline />
         </div>
       </div>
-      <SuiteCaseLogo />
+      <div style={{ overflow: "hidden", maxWidth: "100%", height: "50%" }}>
+        <SuiteCaseLogo />
+      </div>
       <Loader type="pacman" />
     </>
   );
