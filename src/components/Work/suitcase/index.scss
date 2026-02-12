@@ -1,12 +1,13 @@
 .suitcase {
   z-index: 0;
-  width: 600px;
-  height: 600px;
+  overflow: hidden;
+  width: 500px;
+  height: 500px;
   opacity: 1;
   position: absolute;
   top: 0;
   right: 15%;
-  bottom: 0;
+  bottom: 80px;
   left: calc(50%);
   margin: auto;
   transform: rotate(-30deg);
@@ -38,12 +39,10 @@
 @media (max-width: 1000px) {
   .suitcase {
     position: relative;
-    width: 250px;
-    height: auto;
-    top: 330px;
+    width: 300px;
     right: 0;
     box-sizing: border-box;
-    left: 200px;
+    left: 10px;
 
     .svg-container {
       stroke: transparent;
@@ -59,15 +58,9 @@
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 500px) {
   .suitcase {
-    position: relative;
-    width: 250px;
-    height: auto;
-    top: 330px;
-    right: 0;
-    box-sizing: border-box;
-    left: 40px;
+    width: 200px;
   }
 }
 
