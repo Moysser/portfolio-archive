@@ -1,0 +1,16 @@
+{
+  "portfolio": [
+    {
+      "cover": "/portfolio/nabd.png",
+      "title": "Workout Planner",
+      "description": "ReactJS, Tailwind, TypeScript",
+      "url": "https://nabdfitness.vercel.app"
+    },
+    {
+      "cover": "/portfolio/curro.png",
+      "title": "Job Tracker",
+      "description": "ReactJS, Reactrouter, Tailwind, JavaScript",
+      "url": "https://curro-blush.vercel.app"
+    }
+  ]
+}

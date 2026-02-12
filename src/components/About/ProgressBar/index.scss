@@ -1,0 +1,60 @@
+.progress-bar {
+  width: 100%;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.progress {
+  background-color: #4caf50;
+  height: 20px;
+  border-radius: 5px;
+  width: 0;
+}
+
+.type-progress .progress {
+  background-color: #ffd700;
+}
+
+.javaScript-progress .progress {
+  background-color: #ff8c00;
+}
+
+.Tailwind-progress .progress {
+  background-color: #42b883;
+}
+
+.web-progress .progress {
+  background-color: #2ecc71;
+}
+
+.MaterialUI-progress .progress {
+  background-color: #8e44ad;
+}
+
+.Mailchimp-progress .progress {
+  background-color: #34495e;
+}
+
+.react-progress .progress {
+  background-color: #61dafb;
+}
+
+.dev-progress .progress {
+  background-color: #7805b2;
+}
+.node-progress .progress {
+  background-color: #333333;
+}
+
+.postman-progress .progress {
+  background-color: #ff6c37;
+}
+
+.github-progress .progress {
+  background-color: #181717;
+}
+
+.language-info {
+  margin-left: 10px;
+  color: #fff;
+}

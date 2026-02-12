@@ -1,0 +1,31 @@
+.container.work-page {
+  .text-zone {
+    h1 {
+      font-size: 50px;
+    }
+  }
+}
+
+.container.work-page {
+  .experience-primary {
+    padding-left: 80px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container.work-page {
+    .experience-primary {
+      padding-left: 20px;
+      padding-top: 40px;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .container.work-page {
+    .experience-primary {
+      padding-left: 20px;
+      padding-top: 20px;
+    }
+  }
+}
