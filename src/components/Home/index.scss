@@ -118,11 +118,10 @@
     }
 
     .home-image-container {
-      position: relative;
-      width: 20px;
-      top: 0;
-      box-sizing: border-box;
+      position: absolute;
       left: 500px;
+      top: 100px;
+      box-sizing: border-box;
 
       svg {
         position: absolute;
@@ -142,8 +141,34 @@
   }
 }
 
-@media screen and (max-width: 900px) {
-  .home-image-container {
-    display: none;
+@media screen and (max-width: 800px) {
+  .home-page {
+    .home-image-container {
+      left: 500px;
+      top: 250px;
+      .animate {
+        width: 150px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .home-page {
+    .home-image-container {
+      left: 300px;
+      top: 250px;
+      .animate {
+        width: 100px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .home-page {
+    .home-image-container {
+      display: none;
+    }
   }
 }
