@@ -3,19 +3,17 @@
   height: 100%;
   position: absolute;
   overflow: auto;
-  background-image: url("../../assets/images/clouds.png");
 }
 
 .container {
-  width: 100%;
+  // width: 100%;
   will-change: contents;
-  height: 100%;
   min-height: 566px;
-  position: absolute;
-  opacity: 0;
-  top: 5%;
-  margin: 0 auto;
-  z-index: 1;
+  // position: absolute;
+  // opacity: 0;
+  // top: 5%;
+  // margin: 0 auto;
+  // z-index: 1;
   transform-style: preserve-3d;
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
@@ -181,14 +179,9 @@
 
 @media screen and (max-width: 1000px) {
   .page {
-    // position: absolute;
-    // min-height: 100vh;
-    height: 95%;
+    height: max-content;
   }
 
-  .container .home-image-container {
-    display: none;
-  }
   .container {
     position: initial;
     height: 100%;

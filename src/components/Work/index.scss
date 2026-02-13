@@ -8,20 +8,21 @@
 
 .container.work-page {
   .experience-primary {
-    padding-left: 80px;
+    padding-left: 120px;
+    padding-top: 20px;
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .container.work-page {
     .experience-primary {
-      padding-left: 20px;
+      padding-left: 100px;
       padding-top: 40px;
     }
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   .container.work-page {
     .experience-primary {
       padding-left: 20px;
