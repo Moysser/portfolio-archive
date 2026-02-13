@@ -30,7 +30,7 @@ const Sidebar = () => {
           to="/"
           onClick={() => setShowNav(false)}
         >
-          <FontAwesomeIcon icon={faHome} color="#3333a2" />
+          <FontAwesomeIcon icon={faHome} color="#2b2ba8" />
         </NavLink>
         <NavLink
           exact="true"
@@ -39,7 +39,7 @@ const Sidebar = () => {
           to="/about"
           onClick={() => setShowNav(false)}
         >
-          <FontAwesomeIcon icon={faUser} color="#3333a2" />
+          <FontAwesomeIcon icon={faUser} color="#2b2ba8" />
         </NavLink>
         <NavLink
           exact="true"
@@ -48,7 +48,7 @@ const Sidebar = () => {
           to="/work"
           onClick={() => setShowNav(false)}
         >
-          <FontAwesomeIcon icon={faSuitcase} color="#3333a2" />
+          <FontAwesomeIcon icon={faSuitcase} color="#2b2ba8" />
         </NavLink>
         <NavLink
           exact="true"
@@ -57,7 +57,7 @@ const Sidebar = () => {
           to="/portfolio"
           onClick={() => setShowNav(false)}
         >
-          <FontAwesomeIcon icon={faFolderOpen} color="#3333a2" />
+          <FontAwesomeIcon icon={faFolderOpen} color="#2b2ba8" />
         </NavLink>
         <NavLink
           exact="true"
@@ -66,7 +66,7 @@ const Sidebar = () => {
           to="/contact"
           onClick={() => setShowNav(false)}
         >
-          <FontAwesomeIcon icon={faEnvelope} color="#3333a2" />
+          <FontAwesomeIcon icon={faEnvelope} color="#2b2ba8" />
         </NavLink>
         <FontAwesomeIcon
           icon={faClose}
