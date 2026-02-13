@@ -7,7 +7,7 @@ body {
   font:
     300 11px/1.4 "Helveitca Neue",
     "sans-serif";
-  color: #444;
+  color: #000;
   background: url(./assets/images/clouds.png);
   overflow: visible;
   display: block;
