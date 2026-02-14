@@ -141,7 +141,7 @@
     height: auto;
     min-height: auto;
 
-    ul,
+    // ul,
     nav {
       display: none;
     }
@@ -176,6 +176,21 @@
 
       &.mobile-show {
         display: block;
+      }
+    }
+
+    ul {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+
+      li {
+        a {
+          padding-bottom: 20px;
+          &:hover svg {
+            color: #ffd700;
+          }
+        }
       }
     }
 
