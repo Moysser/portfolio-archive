@@ -1,5 +1,5 @@
 .nav-bar {
-  background: #ffeae6;
+  background: #ffef;
   width: 60px;
   height: 100%;
   position: absolute;
@@ -34,9 +34,7 @@
       font-size: 22px;
       color: #ffef;
       display: block;
-      line-height: 51px;
       height: 51px;
-      position: relative;
       text-decoration: none;
 
       i {
@@ -67,11 +65,12 @@
         opacity: 0;
         transition: all 0.3s ease-out;
       }
+    }
 
-      &:first-child {
-        &::after {
-          content: "HOME";
-        }
+    a.home-link {
+      &:after {
+        content: "HOME";
+        font-size: 10px;
       }
     }
 
@@ -96,7 +95,25 @@
     a.portfolio-link {
       &:after {
         content: "PORTFOLIO";
-        font-size: 6px;
+        font-size: 7px;
+      }
+    }
+
+    a.linkedIn {
+      &:after {
+        content: "LINKEDIN";
+      }
+    }
+
+    a.github {
+      &:after {
+        content: "GITHUB";
+      }
+    }
+
+    a.resume {
+      &:after {
+        content: "RESUME";
       }
     }
 
@@ -108,26 +125,8 @@
   }
 
   ul {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    display: block;
-    padding: 0;
     list-style: none;
-    text-align: center;
-    margin: 0;
-
-    li {
-      a {
-        padding: 7px 0;
-        display: block;
-        line-height: 16px;
-
-        &:hover svg {
-          color: #ffd700;
-        }
-      }
-    }
+    padding-top: 30px;
   }
 }
 .hamburger-icon,
@@ -141,7 +140,6 @@
     height: auto;
     min-height: auto;
 
-    // ul,
     nav {
       display: none;
     }

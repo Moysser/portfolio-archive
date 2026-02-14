@@ -29,6 +29,7 @@ const Sidebar = () => {
           activeclassname="active"
           to="/"
           onClick={() => setShowNav(false)}
+          className="home-link"
         >
           <FontAwesomeIcon icon={faHome} color="#2b2ba8" />
         </NavLink>
@@ -75,38 +76,46 @@ const Sidebar = () => {
           className="close-icon"
           onClick={() => setShowNav(false)}
         />
+
+        <ul>
+          <li>
+            <a
+              className="linkedIn"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/moysser-aziz-6696b41b3/"
+            >
+              <FontAwesomeIcon size="xs" icon={faLinkedin} color="#3333a2" />
+            </a>
+          </li>
+          <li>
+            <a
+              className="github"
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/moysser"
+            >
+              <FontAwesomeIcon size="xs" icon={faGithub} color="#3333a2" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="/resume.pdf"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+              className="resume"
+            >
+              <FontAwesomeIcon
+                size="xs"
+                icon={faCloudArrowDown}
+                color="#3333a2"
+              />
+            </a>
+          </li>
+        </ul>
       </nav>
-      <ul>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://www.linkedin.com/in/moysser-aziz-6696b41b3/"
-          >
-            <FontAwesomeIcon size="xl" icon={faLinkedin} color="#3333a2" />
-          </a>
-        </li>
-        <li>
-          <a target="_blank" rel="noreferrer" href="https://github.com/moysser">
-            <FontAwesomeIcon size="xl" icon={faGithub} color="#3333a2" />
-          </a>
-        </li>
-        <li>
-          <a
-            href="/resume.pdf"
-            download
-            target="_blank"
-            rel="noopener noreferrer"
-            className="resume-btn"
-          >
-            <FontAwesomeIcon
-              size="xl"
-              icon={faCloudArrowDown}
-              color="#3333a2"
-            />
-          </a>
-        </li>
-      </ul>
+
       <FontAwesomeIcon
         onClick={() => setShowNav(true)}
         icon={faBars}
