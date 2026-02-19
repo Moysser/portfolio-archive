@@ -100,7 +100,7 @@ const Sidebar = () => {
           </li>
           <li>
             <a
-              href="/resume.pdf"
+              href="/moysser-resume.pdf"
               download
               target="_blank"
               rel="noopener noreferrer"
