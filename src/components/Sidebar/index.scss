@@ -2,8 +2,8 @@
   background: #ffef;
   width: 60px;
   height: 100%;
+  overflow: auto;
   position: absolute;
-  top: 0;
   z-index: 999;
   transition: width 0.3s ease-in-out;
 
